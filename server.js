@@ -1,7 +1,7 @@
 const io = require("socket.io")(8800, {
   cors: {
     // origin: "https://locomate.onrender.com",
-    origin:"http://localhost:4200"
+    origin:"https://locomate-frontend.vercel.app"
   },
 });
 let activeUser = [];
